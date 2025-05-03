@@ -34,7 +34,7 @@ class ConfigurationInfo {
    */
   private function getConfigurationFileContent() {
     $mode = $this->testing ? 'testing' : 'production';
-    $file_content = file_get_contents(__DIR__."/actual_config.json");
+    $file_content = file_get_contents(__DIR__."/config.json");
     if (!$file_content) {
       throw new Exception("Qualcosa è andato storto nella configurazione");
     }
