@@ -5,8 +5,6 @@
 
 &nbsp;
 
-&nbsp;
-
 The scope of this Telegram bot is to **be updated about the prices of the cryptocurrencies of your interest periodically** (every 30 minutes, for example). Every user can set a personal time interval and can set the cryptocurrencies to be updated on from those which are into the database (into the table `cryn_cryptocurrencies`).
 You can also choose to get the silent notifications and you can get into the bot the latest update about your selected cryptocurrencies (so as not to wait for the automatic notification).
 
