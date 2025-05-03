@@ -1,0 +1,23 @@
+# Quando viene inserita una nuova crypto
+DELIMITER //
+CREATE TRIGGER on_new_crypto
+AFTER INSERT ON cryn_cryptocurrencies
+FOR EACH ROW
+BEGIN
+  INSERT INTO cryn_notifications (user_idtelegram, crypto_id)
+	SELECT user_idtelegram, NEW.crypto_id FROM cryn_users;
+END //
+DELIMITER ;
+
+
+
+# Quando viene inserita un nuovo utente
+DELIMITER //
+CREATE TRIGGER on_new_user
+AFTER INSERT ON cryn_users
+FOR EACH ROW
+BEGIN
+  INSERT INTO cryn_notifications (user_idtelegram, crypto_id)
+  SELECT NEW.user_idtelegram, crypto_id FROM cryn_cryptocurrencies;
+END //
+DELIMITER ;
