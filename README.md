@@ -2,6 +2,9 @@
 
 ## ❓ What is this project
 <img src="https://github.com/user-attachments/assets/499ef1ad-f530-4c65-ac64-74f122d0cda1" alt="cryptonotificationbot2" width="500" />
+
+&nbsp;
+
 &nbsp;
 
 The scope of this Telegram bot is to **be updated about the prices of the cryptocurrencies of your interest periodically** (every 30 minutes, for example). Every user can set a personal time interval and can set the cryptocurrencies to be updated on from those which are into the database (into the table `cryn_cryptocurrencies`).
