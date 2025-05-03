@@ -14,10 +14,10 @@ You can try this bot hosted by me: [@CryptosNotification_bot](https://t.me/Crypt
 ---
 ## 📚 Libraries and services used
 I used [composer](https://getcomposer.org/) to get the following PHP libraries:
-- [**telegram-bot-sdk**](https://github.com/irazasyed/telegram-bot-sdk): to have an interface for the Telegram bot API calls
+- [**telegram-bot-sdk**](https://github.com/irazasyed/telegram-bot-sdk): to have an interface for the Telegram Bot API calls
 - [**meekrodb**](https://github.com/SergeyTsalkov/meekrodb) : to have a set of function to make simple and secure database calls
 
-To get info about cryptocurrencies state i've used the [**API of Coinmarket**](https://coinmarketcap.com/api/).
+To get info about cryptocurrencies state i used the [**API of Coinmarket**](https://coinmarketcap.com/api/).
 
 
 ---
