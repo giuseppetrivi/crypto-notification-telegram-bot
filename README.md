@@ -1,19 +1,21 @@
-# crypto-notification-telegram-bot
-## What is this?
+# 🪙 crypto-notification-telegram-bot
+
+## ❓ What is this project
 ![cryptonotificationbot2](https://github.com/user-attachments/assets/98d56538-eed2-4d9e-b6e1-bcde9a6cdbd7)
 
 The scope of this Telegram bot is to **be updated about the prices of the cryptocurrencies of your interest periodically** (every 30 minutes, for example). Every user can set a personal interval time and can set the cryptocurrencies to be updated on from those which are into the database (into the table `cryn_cryptocurrencies`). <br>
-You can also choose to get the silent notifications and you can get, into the bot, the latest update about your selected cryptocurrencies (so as not to wait for the automatic notification).
-<br><br>
+You can also choose to get the silent notifications and you can get into the bot the latest update about your selected cryptocurrencies (so as not to wait for the automatic notification).
 You can try this bot hosted by me: [@CryptosNotification_bot](https://t.me/CryptosNotification_bot)
+
 
 ---
 ## Libraries and services used
-I've used [composer](https://getcomposer.org/) to get the following PHP libraries:
-- [telegram-bot-sdk](https://github.com/irazasyed/telegram-bot-sdk) : to have an interface for the Telegram bot API calls
-- [meekrodb](https://github.com/SergeyTsalkov/meekrodb) : to have a set of function to make simple and secure database calls
+I used [composer](https://getcomposer.org/) to get the following PHP libraries:
+- [**telegram-bot-sdk**](https://github.com/irazasyed/telegram-bot-sdk): to have an interface for the Telegram bot API calls
+- [**meekrodb**](https://github.com/SergeyTsalkov/meekrodb) : to have a set of function to make simple and secure database calls
 <br>
-To get info about cryptocurrencies state i've used the [API of Coinmarket](https://coinmarketcap.com/api/) .
+To get info about cryptocurrencies state i've used the [API of Coinmarket](https://coinmarketcap.com/api/).
+
 
 ---
 ## How to adapt this to your own server
